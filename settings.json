@@ -9,6 +9,7 @@
       "Glob",
       "Grep",
       "LS",
+      "WebSearch",
       "Bash(git status)",
       "Bash(git diff *)",
       "Bash(git log *)"
@@ -39,12 +40,16 @@
       "Bash(chmod *)"
     ]
   },
+  "model": "opus",
   "enabledPlugins": {
-    "feature-dev@claude-plugins-official": true,
-    "context7@claude-plugins-official": true
+    "context7@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true
   },
   "effortLevel": "high",
   "advisorModel": "opus",
+  "awaySummaryEnabled": false,
+  "tui": "fullscreen",
+  "theme": "light-ansi",
   "voiceEnabled": false,
-  "theme": "light-ansi"
+  "workflowKeywordTriggerEnabled": false
 }
