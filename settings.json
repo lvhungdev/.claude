@@ -41,15 +41,16 @@
     ]
   },
   "model": "opus",
+  "workflowKeywordTriggerEnabled": false,
   "enabledPlugins": {
     "context7@claude-plugins-official": true,
     "feature-dev@claude-plugins-official": true
   },
-  "effortLevel": "high",
+  "effortLevel": "xhigh",
   "advisorModel": "opus",
   "awaySummaryEnabled": false,
   "tui": "fullscreen",
   "theme": "light-ansi",
   "voiceEnabled": false,
-  "workflowKeywordTriggerEnabled": false
+  "verbose": true
 }
