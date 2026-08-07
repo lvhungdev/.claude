@@ -49,10 +49,10 @@
   "enabledPlugins": {
     "context7@claude-plugins-official": true
   },
-  "effortLevel": "xhigh",
+  "effortLevel": "high",
   "awaySummaryEnabled": false,
   "tui": "fullscreen",
-  "theme": "light-ansi",
-  "voiceEnabled": false,
-  "verbose": true
+  "theme": "auto",
+  "verbose": true,
+  "voiceEnabled": false
 }
