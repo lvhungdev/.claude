@@ -6,31 +6,25 @@
   "sandbox": {
     "enabled": true,
     "autoAllowBashIfSandboxed": false,
-    "allowUnsandboxedCommands": false
+    "allowUnsandboxedCommands": true
   },
   "permissions": {
-    "allow": [
-      "LS",
-      "WebSearch"
-    ],
+    "allow": ["LS", "WebSearch"],
     "deny": [
-      "Read(**/.env*)",
-      "Read(**/.env.local*)",
-      "Read(**/.env.production*)",
-      "Read(**/.dev.vars*)",
-      "Read(**/*.pem)",
-      "Read(**/*.key)",
-      "Read(**/secrets/**)",
-      "Read(**/credentials/**)",
-      "Read(**/.aws/**)",
-      "Read(**/.ssh/**)",
-      "Read(**/id_rsa*)",
-      "Read(**/id_ed25519*)",
-      "Read(**/database.yml)",
-      "Read(**/credentials.json)",
-      "Read(**/.npmrc)",
-      "Read(**/.pypirc)",
-      "Edit(.github/workflows/*)",
+      "Read(//**/.env*)",
+      "Read(//**/.dev.vars*)",
+      "Read(//**/*.pem)",
+      "Read(//**/*.key)",
+      "Read(//**/secrets/**)",
+      "Read(//**/credentials/**)",
+      "Read(//**/.aws/**)",
+      "Read(//**/.ssh/**)",
+      "Read(//**/id_rsa*)",
+      "Read(//**/id_ed25519*)",
+      "Read(//**/database.yml)",
+      "Read(//**/credentials.json)",
+      "Read(//**/.npmrc)",
+      "Read(//**/.pypirc)",
       "Bash(rm -rf *)",
       "Bash(sudo *)",
       "Bash(git push *)",
@@ -38,7 +32,8 @@
       "Bash(curl * | sh)",
       "Bash(wget *)",
       "Bash(chmod *)"
-    ]
+    ],
+    "ask": ["Bash(dangerouslyDisableSandbox:true)"]
   },
   "model": "opus",
   "workflowKeywordTriggerEnabled": false,
