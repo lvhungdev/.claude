@@ -3,16 +3,15 @@
     "commit": "",
     "pr": ""
   },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": false,
+    "allowUnsandboxedCommands": false
+  },
   "permissions": {
     "allow": [
-      "Read",
-      "Glob",
-      "Grep",
       "LS",
-      "WebSearch",
-      "Bash(git status)",
-      "Bash(git diff *)",
-      "Bash(git log *)"
+      "WebSearch"
     ],
     "deny": [
       "Read(**/.env*)",
@@ -27,13 +26,10 @@
       "Read(**/.ssh/**)",
       "Read(**/id_rsa*)",
       "Read(**/id_ed25519*)",
-      "Read(**/config/database.yml)",
-      "Read(**/config/credentials.json)",
+      "Read(**/database.yml)",
+      "Read(**/credentials.json)",
       "Read(**/.npmrc)",
       "Read(**/.pypirc)",
-      "Edit(**/.env*)",
-      "Edit(**/secrets/**)",
-      "Edit(**/.ssh/**)",
       "Edit(.github/workflows/*)",
       "Bash(rm -rf *)",
       "Bash(sudo *)",
