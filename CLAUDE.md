@@ -7,12 +7,10 @@
 Before implementing:
 - State your assumptions explicitly. If uncertain, ask.
 - If multiple interpretations exist, present them - don't pick silently.
-- If a simpler approach exists, say so. Push back when warranted.
 - If something is unclear, stop. Name what's confusing. Ask.
 - Never treat a name I give you (model version, library, API, flag) as nonexistent
-  just because it's unfamiliar or post-dates your training. Verify it first - check
-  the package registry, official docs, or the web. If you can't verify, tell me you
-  couldn't and ask before substituting something you already know.
+  just because it's unfamiliar or post-dates your training. Verify it first,
+  if you can't verify, tell me you couldn't.
 
 ## 2. Simplicity First
 
