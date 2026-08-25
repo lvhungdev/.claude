@@ -3,13 +3,11 @@
     "commit": "",
     "pr": ""
   },
-  "sandbox": {
-    "enabled": true,
-    "autoAllowBashIfSandboxed": false,
-    "allowUnsandboxedCommands": true
-  },
   "permissions": {
-    "allow": ["LS", "WebSearch"],
+    "allow": [
+      "LS",
+      "WebSearch"
+    ],
     "deny": [
       "Read(//**/.env*)",
       "Read(//**/.dev.vars*)",
@@ -33,17 +31,21 @@
       "Bash(wget *)",
       "Bash(chmod *)"
     ],
-    "ask": ["Bash(dangerouslyDisableSandbox:true)"]
+    "ask": [
+      "Bash(dangerouslyDisableSandbox:true)"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": false,
+    "allowUnsandboxedCommands": true
   },
   "model": "opus",
-  "workflowKeywordTriggerEnabled": false,
-  "enabledPlugins": {
-    "context7@claude-plugins-official": true
-  },
   "effortLevel": "high",
+  "outputStyle": "Concise",
   "awaySummaryEnabled": false,
+  "workflowKeywordTriggerEnabled": false,
   "tui": "fullscreen",
   "theme": "auto",
-  "verbose": true,
   "voiceEnabled": false
 }
