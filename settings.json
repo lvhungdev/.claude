@@ -35,17 +35,18 @@
       "Bash(dangerouslyDisableSandbox:true)"
     ]
   },
+  "model": "opus",
+  "workflowKeywordTriggerEnabled": false,
+  "outputStyle": "default",
   "sandbox": {
     "enabled": true,
     "autoAllowBashIfSandboxed": false,
     "allowUnsandboxedCommands": true
   },
-  "model": "opus",
   "effortLevel": "high",
-  "outputStyle": "Concise",
   "awaySummaryEnabled": false,
-  "workflowKeywordTriggerEnabled": false,
   "tui": "fullscreen",
   "theme": "auto",
-  "voiceEnabled": false
+  "voiceEnabled": false,
+  "enableArtifact": false
 }

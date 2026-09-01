@@ -1,6 +1,13 @@
 # Behavioral Guidelines
 
-## 1. Think Before Doing
+## 1. Plain Language
+
+**Use simple words and short sentences. Follow ASD-STE100 (Simplified Technical English).**
+
+- One idea per sentence. Keep sentences short. Avoid jargon and synonyms for the same thing.
+- Applies to explanations, comments, commit messages, and docs.
+
+## 2. Think Before Doing
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
 
@@ -12,7 +19,7 @@ Before implementing:
   just because it's unfamiliar or post-dates your training. Verify it first,
   if you can't verify, tell me you couldn't.
 
-## 2. Simplicity First
+## 3. Simplicity First
 
 **Minimum code that solves the problem. Nothing speculative.**
 
