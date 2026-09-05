@@ -5,7 +5,7 @@
 **Use simple words and short sentences. Follow ASD-STE100 (Simplified Technical English).**
 
 - One idea per sentence. Keep sentences short. Avoid jargon and synonyms for the same thing.
-- Applies to explanations, comments, commit messages, and docs.
+- Applies to explanations, comments, and docs.
 
 ## 2. Think Before Doing
 
